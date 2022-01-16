@@ -2,8 +2,8 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
-const MNEMONIC = 'Insert your mnemonic here' // INSERT YOUR MNEMONIC HERE
-const INFURA_CONNECTION = 'Insert your connection point here' // insert your infura connection point here
+const MNEMONIC = 'Insert your mnemonic here'; // INSERT YOUR MNEMONIC HERE
+const INFURA_CONNECTION = 'Insert your connection point here'; // insert your infura connection point here
 
 const provider = new HDWalletProvider(
   MNEMONIC,
