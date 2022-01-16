@@ -1,2 +1,3 @@
 # inbox_practice
-Practice project for smart contract development
+
+Practice project for smart contract development and deployment
